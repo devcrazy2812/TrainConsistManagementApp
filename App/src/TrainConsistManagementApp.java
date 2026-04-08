@@ -1,33 +1,31 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class TrainConsistManagementApp {
 
     public static void main(String[] args) {
-        System.out.println("======================================");
-        System.out.println(" UC2 - Add Passenger Bogies to Train ");
-        System.out.println("======================================\n");
-        List<String> passengerBogies = new ArrayList<>();
 
-        passengerBogies.add("Sleeper");
-        passengerBogies.add("AC Chair");
-        passengerBogies.add("First Class");
+        System.out.println("=====================================");
+        System.out.println("   UC3 - Track Unique Bogie IDs");
+        System.out.println("=====================================\n");
 
+        // Create a Set to store unique bogie IDs
+        Set<String> bogies = new HashSet<>();
 
-        System.out.println("After Adding Bogies:");
-        System.out.println("Passenger Bogies : " + passengerBogies);
-        passengerBogies.remove("AC Chair");
+        // Add bogie IDs (including duplicates)
+        bogies.add("BG101");
+        bogies.add("BG102");
+        bogies.add("BG103");
+        bogies.add("BG104");
 
-        System.out.println("\nAfter Removing 'AC Chair':");
-        System.out.println("Passenger Bogies : " + passengerBogies);
+        // Duplicate entries
+        bogies.add("BG101");
+        bogies.add("BG102");
 
-        boolean exists = passengerBogies.contains("Sleeper");
+        // Display unique bogies
+        System.out.println("Unique Bogie IDs:");
+        System.out.println(bogies);
 
-        System.out.println("\nChecking if 'Sleeper' exists:");
-        System.out.println("Contains Sleeper? : " + exists);
-
-        System.out.println("\nFinal Train Passenger Consist:");
-        System.out.println(passengerBogies);
-        System.out.println("\nUC2 operations completed successfully ...");
+        System.out.println("\nUC3 operations completed successfully...");
     }
 }

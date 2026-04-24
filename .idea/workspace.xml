@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c27c4d5-00ae-4022-bb2b-8091dc46de64" name="Changes" comment="" />
+    <list default="true" id="8c27c4d5-00ae-4022-bb2b-8091dc46de64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/App/src/Main/UC9.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/Main/UC10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/Test/UC9.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/Test/UC10.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +29,12 @@
     &quot;assignee&quot;: &quot;devcrazy2812&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/devcrazy2812/TrainConsistManagementApp.git",
-    "accountId": "85591e56-d1fb-4d1e-9e55-b01358af2333"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devcrazy2812/TrainConsistManagementApp.git&quot;,
+    &quot;accountId&quot;: &quot;85591e56-d1fb-4d1e-9e55-b01358af2333&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />

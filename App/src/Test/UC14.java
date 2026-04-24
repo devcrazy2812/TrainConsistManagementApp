@@ -1,10 +1,9 @@
 package test;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.regex.*;
 
-public class UseCase13TrainConsistMgmtTest {
+public class UseCase14TrainConsistMgmtTest {
 
     boolean isValidTrainID(String id) {
         return Pattern.matches("TRN-\\d{4}", id);
